@@ -1,18 +1,7 @@
-## Getting Started
+## Desafio 01 - refatorar mensagem do terminal
+Nesse desafio, optei por pintar o fundo da avaliação dependendo de seu valor:
+- Se a nota for menor que 5, será pintado de vermelho;
+- maior ou igual a 5 e menor que 8, será pintado de amarelo;
+- maior ou igual a 8, será pintado de verde;
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Minha idéia é que este indicativo visual auxiliaria um pouco a mais na decisão de assistir ou não o filme, visto que as estas três cores padrão têm um significado intrínseco de alerta, aviso e prossiga.
