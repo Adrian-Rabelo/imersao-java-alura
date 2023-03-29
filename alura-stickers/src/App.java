@@ -10,7 +10,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // Fazer uma conexão HTTP e buscar os top 250 filmes
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json";
+        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
         URI endereco = URI.create(url);
         var client = HttpClient.newHttpClient();
         var request = HttpRequest.newBuilder(endereco).GET().build();
@@ -23,9 +23,20 @@ public class App {
 
         // Exibir e manipular os dados
         for (Map<String,String> filme : listaDeFilmes) {
-            System.out.println(filme.get("title"));
-            System.out.println(filme.get("image"));
-            System.out.println(filme.get("imDbRating"));
+            System.out.println("\u001b[1m" + "Título: " + "\u001b[m" + filme.get("title"));
+            System.out.println("\u001b[1m" + "Pôster: " + "\u001b[m" + filme.get("image"));
+            Double nota = Double.parseDouble(filme.get("imDbRating"));
+            if (nota >= 8) {
+                System.out.println("\u001b[47m \u001b[102m" + " Avaliação: " + filme.get("imDbRating") + " \u001b[m");
+            } else if (nota >= 6 && nota < 8) {
+                System.out.println("\u001b[47m \u001b[103m" + " Avaliação: " + filme.get("imDbRating") + " \u001b[m");
+            } else {
+                System.out.println("\u001b[47m \u001b[101m" + " Avaliação: " + filme.get("imDbRating") + " \u001b[m");
+            }
+            for (int i = 0; i < Math.round(nota); i++) {
+                System.out.print("\u2B50");
+            }
+            System.out.println();
             System.out.println();
             
         }
