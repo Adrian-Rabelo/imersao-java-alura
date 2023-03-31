@@ -6,27 +6,27 @@ Repositório com a semana da Imersão Java 2 da Alura
 Os desafios serão separados em branches e estão listados a seguir:
 - [Desafio 01](https://github.com/Adrian-Rabelo/imersao-java-alura/tree/desafio-01/alura-stickers)
 
-## Aula 01 - Consumindo uma API de filmes com Java
-### Links, dicas e notas de aula
-- Os 250 [melhores filmes de acordo com a classificação do IMDB](https://www.imdb.com/chart/top/).
-- A [documentação da API do IMDB](https://imdb-api.com/api).
-- Instalação do Visual Studio Code com o [Coding Pack para Java](https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java)
-- Documentação da classe [HttpRequest do pacote java.net.http](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/HttpRequest.html).
-- Classe pronta que utiliza Expressões Regulares para fazer [parse de um JSON](https://gist.github.com/alexandreaquiles/cf337d3bcb59dd790ed2b08a0a4db7a3).
-- [Biblioteca Jackson, que faz parse de JSON](https://github.com/FasterXML/jackson).
-- Site que ajuda a entender [Expressões Regulares]().
-- Artigo: [Como deixar no seu GitHub com um README interessante](https://www.alura.com.br/artigos/escrever-bom-readme).
-- O endpoint da API do IMDB que devolve os 250 melhores filmes: [https://imdb-api.com/en/API/Top250Movies/](https://imdb-api.com/en/API/Top250Movies/) + **SUA-API-KEY**
+## Aula 02 - Gerando figurinhas para WhatsApp
+
+## Links citados
+- Documentação do [pacote javax.imageio](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/javax/imageio/package-summary.html), que trata de leitura e escrita de imagens.
+
+Documentação da [classe BufferedImage](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/image/BufferedImage.html), que representa uma imagem no Java
+
+Documentação da classe [Graphics2D](https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/Graphics2D.html), a “caneta” que permite escrever, desenhar e imprimir outras imagens em uma imagem original.
+
+Documentação da [abstração InputStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/InputStream.html), que representa um fluxo de leitura de dados de qualquer fonte, como arquivos, URLs, entre outros.
 
 ### Desafios desta aula
-1. Consumir o endpoint de filmes mais populares da API do IMDB. Procure também, na documentação da API do IMDB, o endpoint que retorna as melhores séries e o que retorna as séries mais populares. [Confira a resolução do desafio aqui](https://youtu.be/v4Dpul7b5bU)
-2. Usar sua criatividade para deixar a saída dos dados mais bonitinha: usar emojis com código UTF-8, mostrar a nota do filme como estrelinhas, decorar o terminal com cores, negrito e itálico usando códigos ANSI, e mais! [Confira a resolução do desafio aqui](https://youtu.be/kkom8S-mCP4)
-3. Colocar a chave da API do IMDB em algum lugar fora do código como um arquivo de configuração (p. ex, um arquivo .properties) ou uma variável de ambiente. [Confira a resolução do desafio aqui](https://youtu.be/uc59B0J4z1c)
+1. Criar diretório de saída das imagens, se ainda não existir. [Confira a resolução do desafio aqui!](https://youtu.be/BaHcmw5mDRQ)
+Centralizar o texto na figurinha. [Confira a resolução do desafio aqui!](https://youtu.be/_roEvlyPweg)
+2. Colocar outra fonte como a Comic Sans ou a Impact, a fonte usada em memes. [Confira a resolução do desafio aqui!](https://youtu.be/jZf9ukVibig)
+3. Colocar contorno (outline) no texto da imagem. [Confira a resolução do desafio aqui!](https://youtu.be/eBXdpUy72as)
+4. Colocar uma imagem de você que está fazendo esse curso sorrindo, fazendo joinha e fazer com que o texto da figurinha seja personalizado de acordo com as classificações do IMDB.! [Confira a resolução do desafio aqui!](https://youtu.be/6WSHQdnJDwk)
 
 ### Material complementar
-- Artigo na Alura [“O que é JSON?”](https://www.alura.com.br/artigos/o-que-e-json).
-- Artigo na Alura sobre como [pintar o terminal, com tabelinha de cores e negrito](https://www.alura.com.br/artigos/decorando-terminal-cores-emojis).
-- Artigo na Alura sobre como usar [VS Code para codar em Java](https://www.alura.com.br/artigos/desenvolvendo-aplicacoes-java-vs-code).
+- Primeira aula do curso [“Java Polimorfismo: entenda herança e interfaces”](https://www.alura.com.br/conteudo/java-heranca-interfaces-polimorfismo) da Alura.
+- Apêndice da apostila [“Java e Orientação a Objetos”](https://www.alura.com.br/apostila-java-orientacao-objetos/apendice-pacote-java-io) da Alura sobre o pacote java.io que explica com mais detalhes a abstração InputStream.
 
 ### API do IMDb
 
