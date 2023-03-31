@@ -9,7 +9,6 @@ As aulas serão separadas em branches e estão listadas a seguir:
 Os desafios serão separados em branches e estão listados a seguir:
 - [Desafio 01](https://github.com/Adrian-Rabelo/imersao-java-alura/tree/desafio-01/alura-stickers)
 
-Este README contará com todos os links auxiliares das aulas, enquanto cada aula terá seus próprios links relacionados
 ## Aula 01 - Consumindo uma API de filmes com Java
 ### Links, dicas e notas de aula
 - Os 250 [melhores filmes de acordo com a classificação do IMDB](https://www.imdb.com/chart/top/).
